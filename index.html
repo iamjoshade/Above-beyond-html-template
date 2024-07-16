@@ -12,7 +12,7 @@
 <body>
 
     <header class="header">
-        <!-- <nav class="navbar navbar-expand-lg">
+        <!-- <nav class="navbar navbar-expand-lg primary-navigation">
             <div class="container">
               <a class="navbar-brand logo" href="index.html">
                 <img src="/assets/img/logo-alt.svg" alt="logo">
@@ -48,37 +48,44 @@
             </div>
           </nav> -->
 
-        <nav class="navbar navbar-expand-lg p-0">
+        <nav class="navbar navbar-expand-lg p-0 secondary-navigation">
             <div class="container">
-
                 <div class="navbar-brand align-items-center d-flex d-lg-none me-0">
-                    <img src="assets/img/logo-alt.svg" alt="Logo">
+                    <img src="assets/img/logo-alt.svg" alt="Logo" class="ing-fluid logo-updated">
                 </div>
 
-                <button class="navbar-toggler bg-secondary collapsed" type="button" data-bs-toggle="collapse"
+                <!-- <button class="navbar-toggler bg-secondary collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                </button> -->
+
+                <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+            </button>
 
                 <div id="navbar" class="collapse navbar-collapse justify-content-lg-center">
                     <ul class="navbar-nav pt-3 pt-lg-0">
-                        <li class="nav-item me-3">
-                            <a class="nav-link page-scroll" href="#the-couple">The Couple</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#the-couple">The Couple</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link page-scroll" href="#the-wedding-event">Events</a>
+                            <a class="nav-link" href="#the-wedding-event">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#love-story">Love Story</a>
+                            <a class="nav-link" href="#love-story">Love Story</a>
                         </li>
                     </ul>
 
                     <div class="navbar-brand d-none d-lg-block mx-3 mx-xl-5 text-center">
-                        <img width="300" height="67" src="assets/img/logo-alt.svg" alt="Logo">
+                        <img src="assets/img/logo-alt.svg" alt="Logo" class="img-fluid logo-update">
                     </div>
+
                     <ul class="navbar-nav">
-                        <li class="nav-item me-3">
+                        <li class="nav-item">
                             <a class="nav-link page-scroll" href="#photos">Photos</a>
                         </li>
                         <li class="nav-item me-3">
