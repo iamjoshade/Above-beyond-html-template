@@ -303,7 +303,7 @@ ul ol {
 }
 
 dt {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 dd {
@@ -3833,7 +3833,7 @@ textarea.form-control-lg {
 }
 .nav-underline .nav-link.active,
 .nav-underline .show > .nav-link {
-  font-weight: 700;
+  font-weight: 600;
   color: var(--bs-nav-underline-link-active-color);
   border-bottom-color: currentcolor;
 }
@@ -4745,7 +4745,7 @@ textarea.form-control-lg {
   --bs-badge-padding-x: 0.65em;
   --bs-badge-padding-y: 0.35em;
   --bs-badge-font-size: 0.75em;
-  --bs-badge-font-weight: 700;
+  --bs-badge-font-weight: 600;
   --bs-badge-color: #fff;
   --bs-badge-border-radius: var(--bs-border-radius);
   display: inline-block;
@@ -4792,7 +4792,7 @@ textarea.form-control-lg {
 }
 
 .alert-link {
-  font-weight: 700;
+  font-weight: 600;
   color: var(--bs-alert-link-color);
 }
 
@@ -8286,7 +8286,7 @@ textarea.form-control-lg {
 }
 
 .fw-bold {
-  font-weight: 700 !important;
+  font-weight: 600 !important;
 }
 
 .fw-bolder {
@@ -11846,6 +11846,11 @@ textarea.form-control-lg {
 }
 body {
   background-color: #FBF5E9;
+  font-size: "laila", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11878,10 +11883,10 @@ h6 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 0.625rem;
   line-height: 1.8rem;
   color: #5A5353;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=main.css.map */
