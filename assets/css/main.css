@@ -11844,6 +11844,49 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.primary-btn, .secondary-btn, .teritary-btn {
+  padding: 15px 40px;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+  background-color: #D6BA73;
+  display: block;
+  font-weight: 600;
+}
+@media (max-width: 575.98px) {
+  .primary-btn, .secondary-btn, .teritary-btn {
+    padding: 15px 30px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}
+.primary-btn:hover, .secondary-btn:hover, .teritary-btn:hover {
+  background-color: #fff;
+}
+
+.secondary-btn {
+  background-color: #0D0E0D;
+  color: #fff;
+  transition: ease;
+}
+.secondary-btn:hover {
+  background-color: #fff;
+  color: #0D0E0D;
+  transition: 0.3s ease-in-out;
+}
+
+.teritary-btn {
+  background-color: #6B0F1A;
+  color: #fff;
+  transition: ease;
+}
+.teritary-btn:hover {
+  background-color: #fff;
+  color: #0D0E0D;
+  transition: 0.3s ease-in-out;
+}
+
 body {
   background-color: #FBF5E9;
   font-size: "laila", sans-serif;
