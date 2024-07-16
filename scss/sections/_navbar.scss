@@ -1,0 +1,117 @@
+@use "../custom" as *;
+
+
+.navbar{
+    & .nav-item{
+        margin-left: 1.75rem;
+        font-weight: $font-weight-bold;
+        font-size: 0.875rem;
+       
+
+        @include media-breakpoint-down('lg'){
+            margin-left: 0rem;
+            margin-top: 1rem;
+            
+        }
+
+        & .nav-link{
+            color: $white;
+            &:hover{
+                color:$erca;
+        }
+
+        // & .nav-link.active{
+        //     color: $active-menu;
+        // }
+    }
+}
+
+}
+
+
+
+
+/*Navbar Toggler Start Here*/ 
+
+.navbar-toggler{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: -15px;
+    transition: 0.5s ease-in-out;
+    // background-color: $bg-color;
+
+    & .toggler-icon{
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background-color: $bg-color;
+        border-radius: 2px;
+        opacity: 1;
+        transform: rotate(0deg);
+        transition: 0.25s ease-in-out;
+    }
+
+
+    .middle-bar{
+        margin-top: 0px;
+    }
+
+    
+
+    // When Navigation is clicked
+
+    & .top-bar{
+        margin-top: 0px;
+        transform: rotate(135deg);
+    }
+
+    & .middle-bar{
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+
+    & .bottom-bar{
+        margin-top: 0px;
+        transform: rotate(-135deg);
+    }
+
+    // State when the navbar is collasped
+
+    &.collapsed .top-bar{
+        margin-top: -20px;
+        transform: rotate(0deg);
+    }
+
+    &.collapsed .middle-bar{
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+
+    &.collapsed .bottom-bar{
+       margin-top: 20px;
+       transform: rotate(0deg);
+    }
+
+    // Navbar Toggler Color
+    &.collapsed .toggler-icon{
+        // background: linear-gradient(90deg, rgba(33,30,57,1)0%, rgba(96,1,211,1) 25%, rgba(239,243,255,1) 100%);
+        background-color: $white;
+    }
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+   outline: none;
+   box-shadow: none;
+   border: none;
+}
+
+/*Navbar Toggler Ends Here*/ 
+// .navbar-brand img{
+// max-width: 200px;
+// margin-top: 0px;
+// }

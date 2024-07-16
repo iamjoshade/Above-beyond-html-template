@@ -1,0 +1,27 @@
+@use "../custom" as *;
+
+.header{
+    background-color: $header-bg;
+    padding: 10px;
+    & .logo{
+        & img{
+            width: 60%;
+        }
+    }
+
+    .subscribe-btn{
+        margin-left: 15px;
+        cursor: pointer;
+    
+        @include media-breakpoint-down('sm'){
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+    }
+
+    .search-icon{
+        margin-left: 20px;
+        cursor: pointer;
+        color: $white;
+    }
+}

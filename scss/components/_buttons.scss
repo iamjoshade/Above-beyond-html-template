@@ -1,48 +1,65 @@
-@use '../custom' as *;
+@use "../custom" as *;
 
+.primary-btn,
+.secondary-btn,
+.cta-btn,
+.teritary-btn {
+  padding: 15px 40px;
+  border-radius: $border-radius-4;
+  border: none;
+  font-size: 1rem;
+  background-color: $erca;
+  display: block;
+  font-weight: $font-weight-bold;
+  transition: ease;
 
-.primary-btn, .secondary-btn, .teritary-btn{
-    padding: 15px 40px;
-    border-radius: $border-radius-4;
-    border:none;
-    font-size: 1rem;
-    background-color: $erca;
+  @include media-breakpoint-down("sm") {
+    padding: 15px 30px;
+    width: 100%;
     display: block;
-    font-weight: $font-weight-bold;
-    
-    @include media-breakpoint-down('sm'){
-        padding: 15px 30px;
-        width: 100%;
-        display: block;
-        text-align: center;
-      }
+    text-align: center;
+  }
 
-    &:hover{
-        background-color: $white;
-    }
-
+  &:hover {
+    background-color: $white;
+    transition: 0.3s ease-in-out;
+  }
 }
 
-.secondary-btn{
-    background-color: $header-bg;
-    color: $white;
-    transition: ease;
+.secondary-btn {
+  background-color: $header-bg;
+  color: $white;
+  transition: ease;
 
-    &:hover{
-        background-color: $white;
-        color: $header-bg;
-        transition: 0.3s ease-in-out;
-    }
+  &:hover {
+    background-color: $white;
+    color: $header-bg;
+    transition: 0.3s ease-in-out;
+  }
 }
 
-.teritary-btn{
-    background-color: $rosewood-btn-3;
-    color: $white;
-    transition: ease;
+.cta-btn {
+  background-color: $rosewood-btn-3;
+  color: $white;
+  transition: ease;
 
-    &:hover{
-        background-color: $white;
-        color: $header-bg;
-        transition: 0.3s ease-in-out;
-    }
+  &:hover {
+    background-color: $white;
+    color: $header-bg;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+.teritary-btn {
+  border: 1px solid #363226;
+  color: $header-bg;
+  background-color: transparent;
+  padding: 8px 30px;
+  color: $white;
+
+  &:hover {
+    background-color: $white;
+    color: $header-bg;
+    transition: 0.3s ease-in-out;
+  }
 }
