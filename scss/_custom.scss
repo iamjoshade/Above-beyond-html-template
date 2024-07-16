@@ -1,0 +1,35 @@
+$header-bg:#0D0E0D;
+$rosewood-btn-3:#6B0F1A;
+$erca:#D6BA73;
+$davy-gray:#5A5353;
+$bg-color:#FBF5E9;
+$heading-color:#33210D;
+
+
+$main-fonts: "laila", sans-serif;
+
+// White and grey colours
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+// Border-radius
+
+$border-radius-4:4px;
+$border-radius-8:8px;
+$border-radius-10:10px;
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
