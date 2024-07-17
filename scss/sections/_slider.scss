@@ -1,0 +1,44 @@
+@use "../custom" as *;
+
+
+.blog-post-carousel{
+
+    & .post-thumbnail{
+        & img{
+            border-radius: 4px;
+        }
+    }
+
+    & .post-tag{
+        
+        font-size: 0.625rem;
+        margin-bottom: 0.675rem;
+       
+        & a{
+            color: $davy-gray;
+            text-decoration: none;
+            font-weight: 700
+        }
+    }
+
+    & .blog-post-title{
+
+        & h3{
+            font-size: 1.25rem;
+            line-height: 2rem;
+            text-align: center;
+            font-weight: $font-weight-regular;
+
+            &
+            a{
+                color: $heading-color;
+                text-decoration: none;
+
+                &:hover{
+                    color: $rosewood-btn-3;
+                }
+            }
+        }
+
+    }
+}

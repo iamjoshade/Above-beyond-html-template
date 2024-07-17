@@ -7,107 +7,193 @@
     <title>Above & Beyond - A Personal Theme for bloggers</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/fonts/all.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 </head>
 
 <body>
 
     <header class="header">
-        <!-- <nav class="navbar navbar-expand-lg primary-navigation">
+        <nav class="navbar navbar-expand-lg primary-navigation">
             <div class="container">
-              <a class="navbar-brand logo" href="index.html">
-                <img src="/assets/img/logo-alt.svg" alt="logo">
-              </a>
-              <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="toggler-icon top-bar"></span>
-              <span class="toggler-icon middle-bar"></span>
-              <span class="toggler-icon bottom-bar"></span>
-          </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto end main-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Interior Design</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Food</a>
-                  </li>
-      
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Relationship</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Motherhood</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Travel</a>
-                  </li>
-                </ul>
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="/assets/img/logo-alt.svg" alt="logo">
+                </a>
+                <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto end main-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Interior Design</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Food</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Relationship</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Motherhood</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Travel</a>
+                        </li>
+                    </ul>
                     <a class="teritary-btn subscribe-btn">Subscribe</a>
                     <a class="search-icon d-lg-block d-none"><i class="fas fa-search"></i></a>
-              </div>
+                </div>
             </div>
-          </nav> -->
+        </nav>
 
-        <nav class="navbar navbar-expand-lg p-0 secondary-navigation">
+        <!-- <nav class="navbar navbar-expand-lg p-0 secondary-navigation">
             <div class="container">
                 <div class="navbar-brand align-items-center d-flex d-lg-none me-0">
                     <img src="assets/img/logo-alt.svg" alt="Logo" class="ing-fluid logo-updated">
                 </div>
 
-                <!-- <button class="navbar-toggler bg-secondary collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> -->
-
-                <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="toggler-icon top-bar"></span>
-                <span class="toggler-icon middle-bar"></span>
-                <span class="toggler-icon bottom-bar"></span>
-            </button>
+                <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+                </button>
 
                 <div id="navbar" class="collapse navbar-collapse justify-content-lg-center">
                     <ul class="navbar-nav pt-3 pt-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#the-couple">The Couple</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link" href="#the-wedding-event">Events</a>
+                            <a class="nav-link" href="#the-couple">Interior Design</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#love-story">Love Story</a>
+                            <a class="nav-link" href="#the-wedding-event">Relationship</a>
                         </li>
-                    </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#love-story">Motherhood</a>
+                        </li>
 
-                    <div class="navbar-brand d-none d-lg-block mx-3 mx-xl-5 text-center">
-                        <img src="assets/img/logo-alt.svg" alt="Logo" class="img-fluid logo-update">
-                    </div>
 
-                    <ul class="navbar-nav">
+                        <div class="navbar-brand d-none d-lg-block mx-3 mx-xl-5 text-center">
+                            <img src="assets/img/logo-alt.svg" alt="Logo" class="img-fluid logo-update">
+                        </div>
+
+
+
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#photos">Photos</a>
+                            <a class="nav-link" href="#love-story">Motherhood</a>
                         </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link page-scroll" href="#wedding-gifts">Wedding Gifts</a>
-                        </li>
+
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#rsvp">RSVP</a>
+                            <a class="nav-link" href="#love-story">Motherhood</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#love-story">Motherhood</a>
+                        </li>
+
+
                     </ul>
                 </div>
 
             </div>
 
-        </nav>
-
-
+        </nav> -->
     </header>
+
+
+    <section class="recent-post mt-5">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-12 col-sm-12">
+                    <div class="blog-post-carousel">
+                        <div class="col-lg-4">
+                            <div class="post-thumbnail">
+                               <a href="single.html"> <img src="assets/img/post-thumbnail-1.jpg" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post-tag text-center mt-3">
+                                <span><a href="single.html">Interior & Decors</a></span>
+                            </div>
+
+                            <div class="blog-post-title">
+                                <h3><a href="single.html">I’ve Remodeled 3 Lounge - These Are My Biggest Design Regrets in Each One</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="post-thumbnail">
+                                <a href="single.html"> <img src="assets/img/post-thumbnail-2.jpg" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post-tag text-center mt-3">
+                                <span><a href="single.html">Foodies</a></span>
+                            </div>
+
+                            <div class="blog-post-title">
+                                <h3><a href="single.html">Restaurants Etiquette: The do's and the don't everyone should know</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="post-thumbnail">
+                                <a href="single.html"> <img src="assets/img/post-thumbnail-3.jpg" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post-tag text-center mt-3">
+                                <span><a href="single.html">Motherhood</a></span>
+                            </div>
+
+                            <div class="blog-post-title">
+                                <h3><a href="single.html">Potty Training: how we started </a></h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="post-thumbnail">
+                                <a href="single.html"> <img src="assets/img/post-thumbnail-1.jpg" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post-tag text-center mt-3">
+                                <span><a href="single.html">Interior & Decors</a></span>
+                            </div>
+
+                            <div class="blog-post-title">
+                                <h3><a href="single.html">I’ve Remodeled 3 Lounge - These Are My Biggest Design Regrets in Each One</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="post-thumbnail">
+                                <a href="single.html"> <img src="assets/img/post-thumbnail-1.jpg" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post-tag text-center mt-3">
+                                <span><a href="single.html">Interior & Decors</a></span>
+                            </div>
+
+                            <div class="blog-post-title">
+                                <h3><a href="single.html">I’ve Remodeled 3 Lounge - These Are My Biggest Design Regrets in Each One</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="post-thumbnail">
+                                <a href="single.html"> <img src="assets/img/post-thumbnail-1.jpg" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post-tag text-center mt-3">
+                                <span><a href="single.html">Interior & Decors</a></span>
+                            </div>
+
+                            <div class="blog-post-title">
+                                <h3><a href="single.html">I’ve Remodeled 3 Lounge - These Are My Biggest Design Regrets in Each One</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
