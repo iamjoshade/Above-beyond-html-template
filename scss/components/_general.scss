@@ -2,7 +2,10 @@
 
 body{
     background-color: $bg-color;
-    font-size: $main-fonts;
+    font-family: $main-fonts;
+    font-size: 1rem;
+    font-weight: 400;
+     line-height: 1.5rem;
 }
 
 a{
@@ -34,7 +37,7 @@ h6{
 }
 
 p{
-    font-size: $cats-tags;
+    font-size: 1rem;
     line-height: 1.8rem;
     color: $davy-gray;
     font-weight: $font-weight-bold;

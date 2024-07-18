@@ -3,6 +3,12 @@
 
 .blog-post-carousel{
 
+    .slick-slide{
+        @include media-breakpoint-down('md'){
+            margin-left: 15px;
+        }
+    }
+
     & .post-thumbnail{
         & img{
             border-radius: 4px;
@@ -41,4 +47,82 @@
         }
 
     }
+
+    & .NextArrow {
+        position: absolute;
+        top: 50%;
+        right: -25px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        // background: rgba(0, 0, 0, .80);
+        background-color: $white;
+        border: 0 none;
+        margin-top: -22.5px;
+        text-align: center;
+        font: 15px FontAwesome;
+        color: $header-bg;
+        z-index: 5;
+        border: 14px solid #F7F1E3;
+        opacity: 0;
+        transition: all 0.3s;
+
+        &::before{
+            content: '\f061';
+            position: relative;
+            left: 1px;
+        }
+
+        &:hover{
+            background-color: $heading-color;
+            border: none;
+            color: $white;
+        }
+        
+      }
+
+       .NextArrow{
+        opacity: 1;
+      }
+
+
+      & .PrevArrow {
+        position: absolute;
+        top: 50%;
+        left: -70px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 14px solid #F7F1E3;
+        margin-top: -22.5px;
+        text-align: center;
+        font: 15px FontAwesome;
+        color: $header-bg;
+        z-index: 5;
+        background-color: $white;
+        opacity: 1;
+        transition: all 0.3s;
+
+        &::before{
+            content: '\f060';
+            position: relative;
+            right: 1px;
+        }
+
+        &:hover{
+            background-color: $heading-color;
+            border: none;
+            color: $white;
+        }
+
+      }
 }
+
+ 
+  
+
+  
+ 
+  
+ 
+
