@@ -1,0 +1,29 @@
+@use "../custom" as *;
+
+.cta-area{
+
+    background-color: $rosewood-btn-3;
+
+
+    & .cta-info{
+        text-align: center;
+        margin-top: 50px;
+       
+        & h3{
+            &.owner-name{
+                color: $white;
+            }
+        }
+
+        & p{
+            &.welcome-title{
+
+            font-size: 2rem;
+            color: $white;
+            margin-top: 1.3rem;
+
+            }
+        }
+    }
+
+}
