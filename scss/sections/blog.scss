@@ -1,0 +1,91 @@
+@use "../custom" as *;
+
+.section-heading{
+    background-color: $white;
+    padding: 50px 50px;
+    text-align: center;
+
+    & .post-tag{
+
+        & a{
+            color: $davy-gray;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+    }
+
+    & .post-title{
+
+        & h1{
+            // font-size: 2rem;
+            padding-left:150px;
+            padding-right: 150px;
+            font-weight: 700;
+            color: $header-bg;
+            margin: 20px 20px;
+            
+
+            @include media-breakpoint-down('lg'){
+                padding-left: 0;
+                padding-right: 0;
+                font-size: 1.3rem;
+                margin-top: 10px;
+            }
+        }
+
+    }
+
+
+    & i{
+        font-size: 20px;
+        color: $rosewood-btn-3;
+    }
+
+    & span.author-name,
+      span.posted-date,
+      span.listen,
+      span.share{
+        margin-left: 40px;
+        margin-top: 20px;
+        
+
+        @include media-breakpoint-down('sm'){
+            margin-left: 20px;
+        }
+
+        
+
+        & a{
+            color: $davy-gray;
+            margin-left: 5px;
+            font-weight: 300;
+        }
+    }
+
+    @include media-breakpoint-down('sm'){
+        .posted-date, .share, .author-name{
+          display: none;
+        }
+
+       
+      }
+}
+
+.post-content{
+
+    & .post-thumbnail{
+        
+    }
+
+    & .post-content-desc{
+
+        & p{
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 2rem;
+        }
+
+    }
+}

@@ -7,7 +7,7 @@
 
     & .cta-info{
         text-align: center;
-        margin-top: 50px;
+        margin-top: 70px;
        
         & h3{
             &.owner-name{
@@ -17,13 +17,73 @@
 
         & p{
             &.welcome-title{
-
             font-size: 2rem;
             color: $white;
             margin-top: 1.3rem;
 
+                @include media-breakpoint-down('lg'){
+                    font-size: 1.2rem;
+                }
+
             }
         }
+
+        & .cta-desc{
+            color: $gray-100;
+            font-weight: 300;
+        }
+
+        & .secondary-btn{
+            display: inline-block;
+        } 
+
+        & .cta-socials{
+            margin-right: 30px;
+        }
+
+        & ul li{
+            display: inline-block;
+            list-style: none;
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+
+        & li{
+            width: 40px;
+            height: 40px;
+            background-color: $white;
+            border-radius: 50%;
+
+            &:hover{
+                background-color: $bg-color;
+                cursor: pointer;
+            }
+
+            & i{
+                line-height: 40px;
+            }
+
+            & span{
+                display: block;
+
+                &.no_of_followers{
+                    color: $white;
+                    margin-top: 10px;
+                    font-weight: 700;
+                }
+            }
+
+            & a{
+                color: $header-bg;
+               
+               
+                &:hover{
+                    color: $rosewood-btn-3;
+                }
+                
+            }
+        }
+      
     }
 
 }
