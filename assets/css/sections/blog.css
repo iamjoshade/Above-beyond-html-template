@@ -11912,6 +11912,116 @@ textarea.form-control-lg {
 .post-content .post-image img {
   border-radius: 4px;
 }
+.post-content .sidebar-advert-area, .post-content .sidebar-recent-post, .post-content .sidebar-social-icons {
+  background-color: #fff;
+  padding: 30px 0;
+  border-radius: 4px;
+}
+.post-content .sidebar-advert-area.advert img, .post-content .sidebar-recent-post.advert img, .post-content .sidebar-social-icons.advert img {
+  width: 80%;
+  margin-left: 40px;
+}
+.post-content .sidebar-recent-post {
+  border-radius: 4px;
+  margin-top: 30px;
+  text-align: center;
+}
+.post-content .sidebar-recent-post .list-post li {
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+.post-content .sidebar-recent-post h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.post-content .sidebar-recent-post .media-post {
+  flex: 1;
+}
+.post-content .sidebar-recent-post .post-thumb img {
+  width: 150px;
+  border-radius: 4px;
+}
+.post-content .sidebar-recent-post h6 {
+  font-size: 0.75rem;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 12px;
+  margin-top: 5px;
+  line-height: 1.2rem;
+  font-weight: 700;
+}
+.post-content .sidebar-recent-post h6 a {
+  color: #6B0F1A;
+}
+.post-content .sidebar-recent-post h6 a:hover {
+  color: #0D0E0D;
+}
+.post-content .sidebar-social-icons {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.post-content .sidebar-social-icons h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.post-content .sidebar-social-icons ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+.post-content .sidebar-social-icons li {
+  width: 40px;
+  height: 40px;
+  background-color: #6B0F1A;
+  border-radius: 50%;
+}
+.post-content .sidebar-social-icons li:hover {
+  background-color: #0D0E0D;
+  cursor: pointer;
+}
+.post-content .sidebar-social-icons li i {
+  line-height: 40px;
+  color: #fff;
+}
+.post-content .sidebar-social-icons li span {
+  display: block;
+}
+.post-content .sidebar-social-icons li span.no_of_followers {
+  color: #33210D;
+  margin-top: 10px;
+  font-weight: 700;
+}
+.post-content .sidebar-social-icons li a {
+  color: #0D0E0D;
+}
+.post-content .sidebar-social-icons li a:hover {
+  color: #6B0F1A;
+}
+.post-content .sidebar-newsletter {
+  margin-top: 30px;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 10px 0px;
+  text-align: center;
+  color: #fff;
+}
+.post-content .sidebar-newsletter .newsletter {
+  background-color: #6B0F1A;
+  padding: 30px 15px;
+  margin: 20px 20px;
+}
+.post-content .sidebar-newsletter .newsletter h4 {
+  color: #fff;
+}
+.post-content .sidebar-newsletter .newsletter p {
+  color: #FBF5E9;
+}
+.post-content .sidebar-newsletter .newsletter .secondary-btn {
+  width: 100%;
+  margin-top: 15px;
+}
 
 .most-read-post {
   background-color: #fff;
