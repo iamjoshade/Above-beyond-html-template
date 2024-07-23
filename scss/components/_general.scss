@@ -43,3 +43,17 @@ p{
     font-weight: $font-weight-bold;
 }
 
+blockquote{
+  
+        border-top: 5px solid #F4E9D1;
+        padding: 2rem 2rem;
+        text-align: center;
+        border-bottom: 5px solid #F4E9D1;
+        margin-top: 50px;
+
+        & p{
+            font-size: 1rem;
+            font-weight: 300;
+        }
+   
+}

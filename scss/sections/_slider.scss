@@ -1,7 +1,7 @@
 @use "../custom" as *;
 
 
-.blog-post-carousel, .recent-post{
+.blog-post-carousel, .recent-post, .most-read-post{
 
     .slick-slide{
         @include media-breakpoint-down('md'){

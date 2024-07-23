@@ -11909,5 +11909,85 @@ textarea.form-control-lg {
   font-weight: 500;
   line-height: 2rem;
 }
+.post-content .post-image img {
+  border-radius: 4px;
+}
+
+.most-read-post {
+  background-color: #fff;
+  padding: 50px 50px;
+}
+.most-read-post .section-title h3 {
+  text-align: center;
+  font-size: 1.765rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.post-comment {
+  margin-bottom: 50px;
+}
+.post-comment .section-title {
+  background-color: transparent;
+  text-align: left;
+  padding: 30px 0px;
+}
+.post-comment .section-title h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.post-comment .form-group {
+  margin-bottom: 25px;
+}
+.post-comment .form-group .form-control, .post-comment .form-group .form-select {
+  height: 60px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0 24px;
+  color: #0D0E0D;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+.post-comment .form-group .form-control::placeholder, .post-comment .form-group .form-select::placeholder {
+  font-size: 0.75rem;
+}
+.post-comment .form-group .form-control:focus, .post-comment .form-group .form-select:focus {
+  border-color: #f3f3f3;
+  outline: none;
+}
+.post-comment .form-group textarea.form-control {
+  height: 200px;
+  padding-top: 12px;
+  resize: none;
+}
+.post-comment #contact span {
+  font-weight: 600;
+}
+@media (max-width: 575.98px) {
+  .post-comment #contact span {
+    font-size: 10px;
+  }
+}
+.post-comment #contact .checkbox-btn {
+  margin-top: 15px;
+}
+.post-comment #contact .contact_box_btn {
+  text-align: end;
+}
+.post-comment #contact .contact_box_btn .custom-link-btn:hover {
+  background-color: #0D0E0D;
+}
+.post-comment .secondary-btn {
+  display: inline-block;
+}
+@media (max-width: 575.98px) {
+  .post-comment .secondary-btn {
+    font-size: 0.675rem;
+  }
+}
+.post-comment .secondary-btn:hover {
+  background-color: #6B0F1A;
+  color: #fff;
+}
 
 /*# sourceMappingURL=blog.css.map */
