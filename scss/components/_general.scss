@@ -50,10 +50,13 @@ blockquote{
         text-align: center;
         border-bottom: 5px solid #F4E9D1;
         margin-top: 50px;
+        
 
         & p{
-            font-size: 1rem;
-            font-weight: 300;
+            font-size: 1rem !important;
+            font-weight: 600 !important;
+            color: $rosewood-btn-3 !important;
+            font-style: italic;
         }
    
 }

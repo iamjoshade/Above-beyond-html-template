@@ -11967,8 +11967,10 @@ blockquote {
   margin-top: 50px;
 }
 blockquote p {
-  font-size: 1rem;
-  font-weight: 300;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  color: #6B0F1A !important;
+  font-style: italic;
 }
 
 ul {
@@ -12532,7 +12534,15 @@ li {
 .section-heading span.share a {
   color: #5A5353;
   margin-left: 5px;
-  font-weight: 300;
+  font-weight: 600;
+  transition: all;
+}
+.section-heading span.author-name a:hover,
+.section-heading span.posted-date a:hover,
+.section-heading span.listen a:hover,
+.section-heading span.share a:hover {
+  color: #6B0F1A;
+  transition: 0.3s ease-in-out;
 }
 @media (max-width: 575.98px) {
   .section-heading .posted-date, .section-heading .share, .section-heading .author-name {
@@ -12541,9 +12551,10 @@ li {
 }
 
 .post-content .post-content-desc p {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 500;
   line-height: 2rem;
+  color: #0D0E0D;
 }
 .post-content .post-image img {
   border-radius: 4px;

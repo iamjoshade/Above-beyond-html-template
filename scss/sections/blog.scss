@@ -60,7 +60,13 @@
         & a{
             color: $davy-gray;
             margin-left: 5px;
-            font-weight: 300;
+            font-weight: 600;
+            transition: all;
+
+            &:hover{
+                color: $rosewood-btn-3;
+                transition: 0.3s ease-in-out;
+            }
         }
     }
 
@@ -82,9 +88,10 @@
     & .post-content-desc{
 
         & p{
-            font-size: 1rem;
+            font-size: 1.25rem;
             font-weight: 500;
             line-height: 2rem;
+            color: $header-bg;
         }
 
     }
