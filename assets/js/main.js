@@ -1,4 +1,19 @@
 $(document).ready(function () {
+
+  $(window).scroll(function() {
+    // var scroll = $(window).scrollTop();
+    if  ($(this).scrollTop()) {
+        $('#back-top').fadeIn(100);
+    } else {
+        $('#back-top').fadeOut(300);
+    }
+  });
+
+  $(".toTop").click(function () {
+    $("html, body").animate({scrollTop: 0});
+  });
+
+
   $(".blog-post-carousel").slick({
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -30,4 +45,12 @@ $(document).ready(function () {
       },
     ],
   });
+
+
+  // Search form jquery script
+
+  
+ 
+
+
 });
