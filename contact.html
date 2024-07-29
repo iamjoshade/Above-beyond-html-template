@@ -55,7 +55,15 @@
 
                     </ul>
                     <a class="teritary-btn subscribe-btn">Subscribe</a>
-                    <a class="search-icon d-lg-block d-none"><i class="fas fa-search"></i></a>
+                    
+                    <div class="searchbox d-lg-block d-none">
+                        <form action="/" method="get">
+                            <input type="search" placeholder="Press Enter to search" name="search" class="searchbox-input" required>
+                        <input type="submit" class="searchbox-submit" >
+                        <i class="fas fa-search searchbox-icon search-icon " id="search"></i>
+                        </form>
+                    </div>
+
                 </div>
             </div>
         </nav>
@@ -265,6 +273,7 @@
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
