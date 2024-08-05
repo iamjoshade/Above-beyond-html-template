@@ -245,7 +245,7 @@ border: none;
 
 
 
-@include media-breakpoint-down('sm'){
+@include media-breakpoint-down('lg'){
 
     .show{
         visibility: visible !important;
@@ -254,9 +254,9 @@ border: none;
     }
 
     .nav-link{
-        &:hover{
-            color: red !important;
-        }
+        // &:hover{
+        //     color: red !important;
+        // }
     }
 
 }
